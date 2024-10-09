@@ -568,3 +568,53 @@ footer {
         width: 100%; /* Occupa il 100% della larghezza per dispositivi mobili */
     }
 }
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Dimensione massima del carosello */
+    margin: 20px auto; /* Margine per distanziare i caroselli */
+    overflow: hidden;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-image {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.carousel-button {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.carousel-button:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/* Stili Generali */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    margin-top: 40px;
+    text-align: center;
+}
