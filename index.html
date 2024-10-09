@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noemi Tortora - Programmer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">Noemi Tortora</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li> <!-- Link alla sezione Formazione -->
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>I'm a passionate programmer specialized in Web Development and Software Engineering</p>
+        <a href="#projects" class="cta">Explore My Work</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a dedicated programmer with expertise in full-stack development. I enjoy working with technologies like JavaScript, React, and Node.js to create innovative solutions.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">MySQL</div>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-container">
+            <div class="education-item">
+                <h3>Software Developer</h3>
+                <p>ITS Apulia Digital Maker, Molfetta, 2023-in corso</p>
+            </div>
+            <div class="education-item">
+                <h3>Full stack web developer</h3>
+                <p>Aulab Hackademy, Bari, 2023</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <h3><a href="https://www.femosrl.it/chi-siamo.html">Femo Montaggi</a></h3>
+                <img src="photo/femoScreen.png" alt="Screenshot of Femo Montaggi Project" class="project-image">
+                <p>I am currently developing a website for Femo Montaggi, a company specializing in commercial furnishings and metal carpentry. The project is ongoing, and the source code is available on <a href="https://github.com/noemi21/femo.git">GitHub</a>.</p>
+            </div>
+            <div class="project">
+                <h3><a href="https://www.decarolismanitou.it/index">Manitou</a></h3>
+                <img src="photo/manitouScreen.png" alt="Screenshot of Manitou Project" class="project-image">
+                <p>I developed the website for Manitou, a company focused on the sale of agricultural and industrial machinery. The source code is available on <a href="https://github.com/noemi21/ManitouOF.git">GitHub</a>.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/xldervbr" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Noemi Tortora</p>
+    </footer>
+</body>
+</html>
