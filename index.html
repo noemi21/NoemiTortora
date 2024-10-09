@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
 </head>
+
 <body>
     <header>
         <div class="logo">My Portfolio</div>
@@ -28,7 +30,8 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <p>I'm a passionate programmer with experience in full-stack development, working with technologies like JavaScript, React, and Node.js.</p>
+        <p>I'm a passionate programmer with experience in full-stack development, working with technologies like
+            JavaScript.</p>
     </section>
 
     <section id="skills">
@@ -37,9 +40,9 @@
             <div class="skill">HTML</div>
             <div class="skill">CSS</div>
             <div class="skill">JavaScript</div>
-            <div class="skill">React</div>
-            <div class="skill">Node.js</div>
-            <div class="skill">Python</div>
+            <div class="skill">Bootstrap</div>
+            <div class="skill">MySQL</div>
+            <div class="skill">Java</div>
         </div>
     </section>
 
@@ -47,32 +50,34 @@
         <h2>Projects</h2>
         <div class="projects-container">
             <div class="project">
-                <h3>Project 1</h3>
-                <p>A web application built with React and Node.js.</p>
+                <h3><a href="https://www.decarolismanitou.it/index">Web Development</a></h3>
+                <p>I developed both the website of company Manitou specializing in the sale of agricultural and industrial machinery.
+                    <br>The source code is available on <a href="https://github.com/noemi21/ManitouOF.git">GitHub</a>.
+                </p>
             </div>
             <div class="project">
-                <h3>Project 2</h3>
-                <p>An API for managing tasks, built with Express.js.</p>
-            </div>
-            <div class="project">
-                <h3>Project 3</h3>
-                <p>A personal blog built with Python and Flask.</p>
+                <h3><a href="https://www.decarolismanitou.it/index">Web Development</a></h3>
+                <p>I am currently developing a website for a company that specializes in commercial furnishings,metal carpentry,building maintenance,and clean rooms.The project is ongoing and The source code is available on 
+                    <br><a href="https://github.com/noemi21/femo.git">GitHub</a>.</p>
             </div>
         </div>
     </section>
 
     <section id="contact">
         <h2>Contact Me</h2>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
+        <form action="https://formspree.io/f/xldervbr" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
             <button type="submit">Send Message</button>
         </form>
+    </section>
+
     </section>
 
     <footer>
         <p>&copy; 2024 Programmer Portfolio</p>
     </footer>
 </body>
+
 </html>

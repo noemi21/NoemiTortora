@@ -32,7 +32,7 @@ header {
 header .logo {
     font-size: 2rem;
     font-weight: bold;
-    color: #f39c12;
+    color: #00bcd4;
     letter-spacing: 1px;
     transition: transform 0.3s ease;
 }
@@ -59,7 +59,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #f39c12;
+    color: #00bcd4;
 }
 
 nav ul li a::after {
@@ -67,7 +67,7 @@ nav ul li a::after {
     position: absolute;
     width: 0;
     height: 2px;
-    background-color: #f39c12;
+    background-color: #00bcd4;
     bottom: -5px;
     left: 0;
     transition: width 0.3s ease;
@@ -106,7 +106,7 @@ nav ul li a:hover::after {
 
 .hero .cta {
     padding: 1rem 3rem;
-    background-color: #f39c12;
+    background-color: #00bcd4;
     color: #121212;
     text-decoration: none;
     border-radius: 50px;
@@ -118,7 +118,7 @@ nav ul li a:hover::after {
 }
 
 .hero .cta:hover {
-    background-color: #e67e22;
+    background-color: #00a3bb;
     transform: translateY(-5px);
 }
 
@@ -157,7 +157,7 @@ section {
 
 h2 {
     font-size: 2.5rem;
-    color: #f39c12;
+    color: #00bcd4;
     margin-bottom: 2rem;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -169,7 +169,7 @@ h2::after {
     position: absolute;
     width: 100px;
     height: 4px;
-    background-color: #f39c12;
+    background-color: #00bcd4;
     left: 50%;
     transform: translateX(-50%);
     bottom: -10px;
@@ -201,7 +201,7 @@ h2::after {
 .skill h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #f39c12;
+    color: #00bcd4;
 }
 
 .skill p {
@@ -233,12 +233,17 @@ h2::after {
 
 .project h3 {
     font-size: 1.8rem;
-    color: #f39c12;
+    color: #00bcd4;
     margin-bottom: 1rem;
 }
 
 .project p {
     color: #b0b0b0;
+}
+
+.project a {
+    color: #00bcd4;
+    text-decoration: none;
 }
 
 /* Contact Form */
@@ -258,14 +263,18 @@ form input, form textarea {
     transition: border 0.3s ease;
 }
 
+form input::placeholder, form textarea::placeholder {
+    color: #b0b0b0;
+}
+
 form input:focus, form textarea:focus {
-    border: 2px solid #f39c12;
+    border: 2px solid #00bcd4;
     outline: none;
 }
 
 form button {
     padding: 12px;
-    background-color: #f39c12;
+    background-color: #00bcd4;
     color: #121212;
     border: none;
     border-radius: 50px;
@@ -276,7 +285,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #e67e22;
+    background-color: #00a3bb;
     transform: translateY(-5px);
 }
 
